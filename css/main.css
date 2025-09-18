@@ -1,0 +1,1097 @@
+body{
+  background: #000000;
+  height: 100%;
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+/* RICKY XIE SENT shout out*/
+/* dont scale svg in media query */
+html {
+    height: 100%;
+}
+.centersvg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.centersvg > svg {
+    height: 96%;
+    margin-left: -1%;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover{
+  font-family: knifitalic;
+  color: #4b4b4b;
+}
+a:active{
+  color: #4b4b4b;
+}
+/* a:visited{
+  color: #ffffff;
+} */
+
+
+
+/* TYPE */
+@font-face {
+ font-family: knif;
+ src: url(knif-mono.woff2);
+}
+@font-face {
+ font-family: knifitalic;
+ src: url(knif-mono_italic.woff2);
+}
+q {
+  quotes: "“" "”" "‘" "’";
+}
+q::before {
+    content: open-quote;
+}
+q::after {
+    content: close-quote;
+}
+
+::selection {
+    color: #4b4b4b;
+    text-shadow: none;
+    background: transparent;
+}
+text::selection {
+    fill: #4b4b4b;
+    text-shadow: none;
+    background: transparent;
+}
+
+h4{
+  display: none;
+}
+
+/* SITE TITLES*/
+h1{
+  font-family: "IBM Plex Mono", helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 145.4%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+h3{
+  font-family: "knif", times;
+  font-weight: 300;
+  font-size: 0.77rem;
+  line-height: 154%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.title-mob{
+  display: none;
+}
+
+
+/* TEXT ANIMATION, SVG RINGS ANIMATION 0.047 */
+.zero{
+	-webkit-animation: appear 0.3s ease-out both;
+	        animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 0.1s;
+}
+.fst{
+	-webkit-animation: appear 0.3s ease-out both;
+	        animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 0.5s;
+}
+.sec{
+	-webkit-animation: appear 0.3s ease-out both;
+	        animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 0.6s;
+}
+.thd{
+	-webkit-animation: appear 0.3s ease-out both;
+	        animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 0.7s;
+}
+.fth{
+	-webkit-animation: appear 0.3s ease-out both;
+	        animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 0.8s;
+}
+
+#vietnam{
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 1.2s;
+}
+    #l-vt{
+    -webkit-animation: appear 0.3s ease-out both;
+            animation: appear 0.3s ease-out both;
+            opacity: 0;
+            animation-delay: 1.4s;
+    }
+#thailand{
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 1.3s;
+}
+    #l-th{
+    -webkit-animation: appear 0.3s ease-out both;
+            animation: appear 0.3s ease-out both;
+            opacity: 0;
+            animation-delay: 1.5s;
+    }
+#singapore{
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 1.4s;
+
+}
+    #l-sg{
+    -webkit-animation: appear 0.3s ease-out both;
+            animation: appear 0.3s ease-out both;
+            opacity: 0;
+            animation-delay: 1.6s;
+    }
+#philippines{
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 1.5s;
+}
+    #l-ph{
+    -webkit-animation: appear 0.3s ease-out both;
+            animation: appear 0.3s ease-out both;
+            opacity: 0;
+            animation-delay: 1.7s;
+    }
+#malaysia{
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 1.6s;
+}
+    #l-my{
+    -webkit-animation: appear 0.3s ease-out both;
+            animation: appear 0.3s ease-out both;
+            opacity: 0;
+            animation-delay: 1.8s;
+    }
+#laos{
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 1.7s;
+}
+    #l-laos{
+    -webkit-animation: appear 0.3s ease-out both;
+            animation: appear 0.3s ease-out both;
+            opacity: 0;
+            animation-delay: 1.9s;
+    }
+#indonesia{
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 1.8s;
+}
+    #l-ind{
+    -webkit-animation: appear 0.3s ease-out both;
+            animation: appear 0.3s ease-out both;
+            opacity: 0;
+            animation-delay: 2s;
+    }
+#timor-leste{
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 1.9s;
+}
+    #l-tl{
+    -webkit-animation: appear 0.3s ease-out both;
+            animation: appear 0.3s ease-out both;
+            opacity: 0;
+            animation-delay: 2.1s;
+    }
+#cambodia{
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 2s;
+}
+    #l-cam{
+    -webkit-animation: appear 0.3s ease-out both;
+            animation: appear 0.3s ease-out both;
+            opacity: 0;
+            animation-delay: 2.2s;
+    }
+#myanmar{
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 2.1s;
+}
+    #l-bur{
+    -webkit-animation: appear 0.3s ease-out both;
+            animation: appear 0.3s ease-out both;
+            opacity: 0;
+            animation-delay: 2.3s;
+    }
+#brunei{
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 2.2s;
+}
+    #l-br{
+    -webkit-animation: appear 0.3s ease-out both;
+            animation: appear 0.3s ease-out both;
+            opacity: 0;
+            animation-delay: 2.4s;
+    }
+#_1920{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.2s;
+}
+#_1925{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.25s;
+}
+#_1930{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.3s;
+}
+#_1935{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.35s;
+}
+#_1940{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.4s;
+}
+#_1945{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.45s;
+}
+#_1950{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.5s;
+}
+#_1955{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.55s;
+}
+#_1960{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.6s;
+}
+#_1965{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.65s;
+}
+#_1970{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.7s;
+}
+#_1975{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.75s;
+}
+#_1980{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.8s;
+}
+#_1985{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.85s;
+}
+#_1990{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.9s;
+}
+#_1995{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 1.95s;
+}
+#_2000{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 2s;
+}
+#_2005{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 2.05s;
+}
+#_2010{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 2.1s;
+}
+#_2015{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 2.15s;
+}
+#_2020{
+-webkit-animation: appear 0.2s ease-out both;
+        animation: appear 0.2s ease-out both;
+        opacity: 0;
+        animation-delay: 2.2s;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.linebreakalert{
+  display: none;
+}
+
+/* AIRTABLE TEXT, IMAGE, ANIMATION */
+p{
+  font-family: "knif", times;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.77rem;
+  line-height: 154%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+
+  -webkit-animation: fade 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          animation: fade 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+h2{
+  font-family: "IBM Plex Mono", helvetica, sans-serif;
+  font-weight: 400;
+  display: table;
+  font-size: 0.75rem;
+  letter-spacing: 0.1%;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #000000;
+  background-color: #ffffff;
+
+  margin: auto;
+  padding: 2.5px 5.5px 2.5px 5.5px;
+
+  -webkit-animation: fade 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+h2::selection {
+    color: #cecece;
+    text-shadow: none;
+    background: transparent;
+}
+
+img{
+  width: 22vw;
+  height: 22vw;
+  /* overflow: hidden; */
+  border-radius: 50%;
+
+	-webkit-animation: fade 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+/* SITE INFO */
+.txt{
+  position: fixed;
+  margin-left: 1.6vw;
+  z-index: 999999;
+}
+
+#sitetitle{
+margin-top: 2vh;
+z-index: 999999;
+}
+#sitedes{
+margin-top: 4.5vh;
+}
+#sitebtm{
+bottom: 1%;
+}
+#info{
+  position: fixed;
+  font-family: "knif", times;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 0.77rem;
+  line-height: 154%;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+
+  bottom: 2.44%;
+  margin-left: 77.5%;
+}
+
+
+/* DOTS */
+.cls-3{
+  z-index: 999999;
+  transition: 0.25s ease-in-out;
+  -webkit-animation: appear 0.4s ease-out both;
+          animation: appear 0.4s ease-out both;
+          opacity: 0;
+          animation-delay: 2.6s;
+}
+.cls-3:hover{
+  fill: white;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+.cls-3:active{
+  fill: #4b4b4b;
+  stroke: #4b4b4b;
+  transition: 0.1s ease-out;
+}
+.cls-3.highlight{
+  fill: white;
+}
+.ydot.active{
+  fill: #ffffff;
+  transition: 0.25s ease-out;
+}
+
+
+/* YEAR LABELS */
+.yes{
+  cursor: pointer;
+  display: table;
+  padding: 4.5px 7px 4.5px 7px;
+  background-color: #000000;
+  z-index: 999999;
+}
+
+.selected-year{
+  fill: #fff;
+  transition: 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000);
+  z-index: 999999;
+}
+
+.fill_year:hover{
+  cursor: pointer;
+  fill: #fff;
+  transition: 0.25s ease-in-out;
+  z-index: 999999;
+}
+.fill_year:hover ~ .num,
+.selected-year ~ .num,
+.fill_year:hover ~ .num *,
+.selected-year ~ .num *{
+  fill: #000000;
+  stroke: #000000;
+  stroke-width: 0.35px;
+  z-index: 999999;
+}
+.fill_year:active{
+  fill: #4b4b4b;
+  transition: 0.1s ease-out;
+  z-index: 999999;
+}
+
+.no:hover{
+  cursor: default;
+  fill: #4b4b4b;
+}
+
+
+
+/* COUNTRY RINGS */
+.ring{
+  stroke-dasharray: 3 4;
+  z-index: -10;
+}
+.selected-ring{
+  stroke-dasharray: 0;
+  z-index: -10;
+}
+
+/* COUNTRY RECTANGLE HOVER */
+.cls-4:hover{
+  opacity: 0.65;
+  cursor: pointer;
+}
+
+
+/* SVG CHARTTTTTTTTTTTTTTTTTTTTT */
+svg{
+  /* z-index: 8888; */
+  -webkit-animation: appear 0.3s ease-out both;
+          animation: appear 0.3s ease-out both;
+          opacity: 0;
+          animation-delay: 1.1s;
+  /* overflow: hidden; */
+}
+
+
+/* AIRTABLE COINTAINERS */
+.coin-container{
+  left: -1%
+  z-index: -100;
+}
+
+.coin-des{
+  line-height: 150%;
+  margin: 0;
+}
+
+.centername{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  height: 2.8%;
+  bottom: 40.9%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: -100;
+  /* z-index: 888; */
+}
+.coinname{
+  width: 100%;
+  margin-left: -1%;
+
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  z-index: -100;
+  /* position: fixed; */
+/* z-index: 999999; */
+  display: flex;
+
+}
+.coin-currency{
+  display: none;
+
+}
+.coin-currency.active{
+  display: block;
+}
+
+.coininfo{
+  position: fixed;
+  left: 85.2%;
+  top: 88.95%;
+  bottom: 2.53%;
+  width: 5.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin-year{
+  display: none;
+}
+.coin-year.active{
+  display: block;
+}
+
+.coin-country{
+  display: none;
+}
+.coin-country.active{
+  display: block;
+}
+
+.coin-size{
+  display: none;
+}
+.coin-size.active{
+  display: block;
+}
+
+.coin-mass{
+  display: none;
+}
+.coin-mass.active{
+  display: block;
+}
+
+
+.coinzoom{
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  left: 76.3%;
+  right: 1.88%;
+  top: 4.2%;
+}
+
+.coin-zoompic{
+  display: none;
+}
+.coin-zoompic.active{
+  display: block;
+  /* -webkit-animation: rotate 80s linear infinite;
+          animation: rotate 80s linear infinite;
+          animation-delay: 0.2s; */
+}
+
+.centermain{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  height: 40mm;
+  top: 36.6%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: -100;
+}
+.coinmain{
+  margin: 0;
+  margin-left: -1%;
+  padding: 0;
+  /* position: fixed; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  top: 37.4vh;
+  /* left: 45vw; */
+  width: 40mm;
+  height: 40mm;
+}
+
+.coin-mainpic{
+  display: none;
+}
+.coin-mainpic.active{
+  display: block;
+  -webkit-animation: rotate 50s linear infinite;
+          animation: rotate 50s linear infinite;
+          animation-delay: 0.3s;
+}
+      /* TOOLTIP */
+      /* #actual{
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 400;
+        display: none;
+        font-size: 0.5rem;
+        letter-spacing: 0.1%;
+        text-transform: uppercase;
+        text-align: center;
+        left: 100px;
+
+        color: #000000;
+        background-color: #ffffff;
+
+        margin: auto;
+        padding: 2.5px 5.5px 2.5px 5.5px;
+
+        -webkit-animation: fade 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                animation: fade 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+      }
+
+      .coin-mainpic:hover ~ #actual{
+        display: table;
+      } */
+
+
+
+/*         MEDIA QUERIES         */
+        /*         iPad Pro        */
+    @media (max-width: 1366px){
+      .txt{
+        margin-left: 2.2%;
+      }
+      .coininfo{
+        bottom: 0;
+        left: 88%;
+        margin-bottom: 0;
+        width: 5.5rem;
+      }
+      #info{
+        bottom: 2%;
+      }
+
+      h4{
+        display: none;
+      }
+      .centermain{
+        top: 39%;
+      }
+      .centername{
+        bottom: 42%;
+      }
+
+      .coinzoom{
+        display: none;
+      }
+      .coin-zoom{
+        display: none;
+      }
+    }
+
+      /*         OLD iPads        */
+      @media (max-width: 1025px){
+        .txt{
+          margin-left: 3.5%;
+        }
+        #info{
+          margin-bottom: 3.55%;
+          bottom: 0%;
+          margin-left: 75%;
+        }
+        #sitebtm{
+          margin-bottom: 3.55%;
+          bottom: 0;
+        }
+        .centermain{
+          top: 42%;
+        }
+        .centername{
+          bottom: 43.9%;
+        }
+        .coininfo{
+          width: 5.5rem;
+        }
+      }
+
+    /*         Mobile/ small ipads        */
+    @media (max-width: 790px){
+
+    body{
+        background: #000000;
+        height: 100%;
+        margin: 0;
+      }
+      html {
+          height: 100%;
+      }
+
+      .title-mob{
+        display: block;
+      }
+      .centertitle{
+        margin: 0;
+        width: 100vw;
+        height: 17%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        z-index: 999999;
+      }
+        h1{
+          font-size: 3.125rem;
+          line-height: 95%;
+          text-align: center;
+          z-index: 999999;
+        }
+          #sitetitle{
+            margin: 0;
+            z-index: 999999;
+            -webkit-animation: appear 0.3s ease-out both;
+                    animation: appear 0.3s ease-out both;
+                    opacity: 0;
+                    animation-delay: 1s;
+          }
+        h3{
+          margin: 0;
+          height: 20%;
+          font-size: 3.125rem;
+          line-height: 95%;
+          text-align: center;
+          letter-spacing: -0.05em;
+          text-transform: uppercase;
+          z-index: 999999;
+        }
+        .txt{
+          margin: 0;
+        }
+        #sitedes{
+          margin-top: 0;
+          bottom: 0%;
+          -webkit-animation: appear 0.3s ease-out both;
+                  animation: appear 0.3s ease-out both;
+                  opacity: 0;
+                  animation-delay: 1.2s;
+        }
+        .alert{
+          position: fixed;
+          top: calc(50% - 3.1rem);
+          width: 100vw;
+          /* height: 100px; */
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          z-index: 9999999;
+        }
+        #mobilealert{
+          margin: 0;
+          /* height: 7%; */
+          width: calc(100vw - 35px);
+          font-size: 1.5rem;
+          letter-spacing: -0.01em;
+          line-height: 102%;
+          z-index: 9999999;
+        }
+
+        h4{
+          display: block;
+          font-family: "knif", times;
+          color: #ffffff;
+          font-size: 0.68rem;
+          margin-inline-end: 0px;
+          font-weight: 400;
+          text-align: center;
+          padding: 5px;
+        }
+        .coin-nummob{
+          margin: 0;
+          align-self: center;
+          justify-content: center;
+          margin: 0;
+        }
+        .coininfo{
+          margin-top: 10px;
+          margin-left: 20px;
+
+        }
+
+        .centermain{
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          margin-bottom: 100px;
+          margin: 0;
+          width: 100%;
+          height: 100%;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          /* overflow: scroll; */
+        }
+        .mobnum-cont{
+          height: 19mm;
+          grid-column: 1/3;
+          grid-row: 1/1;
+        }
+        .mob-footer{
+          height: 28mm;
+          grid-column: 1/3;
+          grid-row: 54/54;
+        }
+        .coinmain{
+          bottom: 0;
+          top: 0;
+          left: 0;
+          margin: 0;
+          width: 100%;
+          height: 100%;
+
+          display: grid;
+          grid-template-columns: repeat(2, 41mm);
+          align-items: flex-start;
+          justify-content: center;
+          grid-template-rows: repeat(3, 1fr);
+          grid-column-gap: 6mm;
+          grid-row-gap: 8mm;
+
+          /* overflow-y: scroll; */
+
+          -webkit-animation: appear 0.4s ease-out both;
+                  animation: appear 0.4s ease-out both;
+                  opacity: 0;
+                  animation-delay: 3.5s;
+        }
+            .coin-main{
+              /* height: 100%; */
+              display: flex;
+              flex-direction: column;
+              align-items: baseline;
+              justify-content: center;
+            }
+            .coin-mainpic{
+              display: block;
+              margin-top: 1%;
+              /* margin-left: 20%; */
+              place-self: center;
+
+            	-webkit-animation: rotate 15s linear infinite;
+            	        animation: rotate 15s linear infinite;
+
+              }
+
+              p{
+                display: none;
+              }
+              .title-desk{
+                display: none;
+              }
+              svg{
+                display: none;
+              }
+              .centersvg{
+                display: none;
+              }
+              .nomob{
+                display: none;
+              }
+              .coin-currency{
+                display: none;
+              }
+              .coin-year{
+                display: none;
+              }
+              .coin-country{
+                display: none;
+              }
+              .coin-size{
+                display: none;
+              }
+              .coin-mass{
+                display: none;
+              }
+              #sitebtm{
+                display: none;
+              }
+              #info{
+                display: none;
+              }
+              .coinzoom{
+                display: none;
+              }
+            }
+
+            /* LINE BREAK FOR ALERT */
+        @media (max-width: 450px){
+          .linebreakalert{
+            display: block;
+          }
+        }
+
+          /* SMALLER PHONES */
+      @media (max-width: 374px){
+        #sitetitle{
+          margin-top: 0%;
+          font-size: 2.9rem;
+          letter-spacing: -0.01em;
+        }
+        #sitedes{
+          font-size: 2.9rem;
+          letter-spacing: -0.06em;
+          bottom: 3%;
+        }
+        .alert{
+          top: 36%;
+        }
+
+      }
+
+
+}
+
+
+
+    @-webkit-keyframes rotate{
+      0% {
+        -webkit-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+      }
+      100% {
+        -webkit-transform: rotate(0);
+                transform: rotate(0);
+      }
+    }
+    @keyframes rotate{
+      0% {
+        -webkit-transform: rotate(-360deg);
+                transform: rotate(-360deg);
+      }
+      100% {
+        -webkit-transform: rotate(0);
+                transform: rotate(0);
+      }
+    }
